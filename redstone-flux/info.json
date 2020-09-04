@@ -4,6 +4,6 @@
   "title": "Redstone Flux",
   "author": "Hiddendoom45",
   "factorio_version": "1.0",
-  "dependencies": ["base >= 1.0", "?Krastorio2 >= 1.0.0"],
+  "dependencies": ["base >= 1.0", "?Krastorio2 >= 1.0.0", "?space-exploration >=  0.3.106"],
   "description": "This mod adds redstone, a new resource that can be used to transfer and produce a lot of energy. Loosely based on the redstone flux system in the minecraft thermal expansion mod."
 }
