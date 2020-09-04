@@ -87,6 +87,7 @@ if mods["space-exploration"] then
         addInfusionRecipe("Naquium","se-naquium-ore",1),
         addInfusionRecipe("Vitamelange","se-vitamelange",1),
     })
+    data.raw.technology["rflux-redstone-processing"].prerequisites = {"se-pulveriser"}
 end
 if mods["Krastorio2"] then
     data.raw.recipe["rflux-redstone-dust-crush"].category = "crushing"
@@ -94,4 +95,5 @@ if mods["Krastorio2"] then
         addInfusionRecipe("Imersite","raw-imersite",15),
         addInfusionRecipe("Rare Metals","raw-rare-metals",1),
     })
+    data.raw.technology["rflux-redstone-processing"].prerequisites = {"logistic-science-pack","kr-crusher"}
 end

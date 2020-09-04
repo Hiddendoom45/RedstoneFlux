@@ -4,7 +4,7 @@ script.on_init(function()
     -- find all players
     for _,player in pairs(game.players) do
         -- check if infusion researched
-        if player.force.technologies["rflux-infusion"].enabled then
+        if player.force.technologies["rflux-infusion"].researched then
             -- iterate through recipes
             for _, recipe in pairs(player.force.technologies["rflux-infusion"].effects) do
                 -- enable recipe and print message to player
@@ -21,7 +21,7 @@ script.on_configuration_changed(function()
     -- find all players
     for _,player in pairs(game.players) do
         -- check if infusion researched
-        if player.force.technologies["rflux-infusion"].enabled then
+        if player.force.technologies["rflux-infusion"].researched then
             -- iterate through recipes
             for _, recipe in pairs(player.force.technologies["rflux-infusion"].effects) do
                 -- enable recipe and print message to player
@@ -36,7 +36,7 @@ end)
 
 script.on_event(defines.events.on_player_created, function(event)
     local player = game.get_player(event.player_index)
-    if player.force.technologies["rflux-infusion"].enabled then
+    if player.force.technologies["rflux-infusion"].researched then
         -- iterate through recipes
         for _, recipe in pairs(player.force.technologies["rflux-infusion"].effects) do
             -- enable recipe and print message to player
