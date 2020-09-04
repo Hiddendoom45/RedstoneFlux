@@ -1,6 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2020.09.04
+  Changes:
+    - Add Krastorio 2 biomass into infusion recipes
+
   Fixes:
     - Infusion recipes are no longer automatically unlocked (issue in control script)
       It should now work properly unlocking new ores if tech is already researched.

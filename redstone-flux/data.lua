@@ -94,6 +94,7 @@ if mods["Krastorio2"] then
     data:extend({
         addInfusionRecipe("Imersite","raw-imersite",15),
         addInfusionRecipe("Rare Metals","raw-rare-metals",1),
+        addInfusionRecipe("Biomass","biomass",2),
     })
     data.raw.technology["rflux-redstone-processing"].prerequisites = {"logistic-science-pack","kr-crusher"}
 end
