@@ -1,4 +1,34 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2020.09.04
+  Fixes:
+    - New infusion recipes are unlocked if tech is researched - for existing saves when
+      additional ores from other mods are added.
+
+  Changes:
+    - Updated ore generation function
+    - Add compatability with Krastorio 2 and Space Exploration. 
+      Use pulverizers(SE), or crushers(K2) to make redstone dust.
+      Add infusion recipes for all ores added by the two mods, imersite and Vulcanite are
+      more efficient as they have some additional energy value based on the products they're used in.
+  
+  Balancing:
+    - Reduce costs of some technologies to be more in line with similar technologies at the same tier
+    - Nerf Redstone Generator, only 50% effective, somewhat more balanced compared to early game power generation
+    - Increase redstone crystal fuel value to offset redstone generator nerf and to make 
+      redstone dust -> redstone crystal -> generator process a net positive in power
+    - Redstone crystals are needed for infusion recipes as a catalyst, avg 1 used per 100GJ produced.
+      Forces the stupidly long and cannot be sped up redstone crystalization recipe to be used 
+      which is the main drawback to balance things.
+    - Reduce redstone crystalization time by 50% as it's being shoehorned into infusion.
+
+  Locale:
+    - Fix some missing locales
+
+  Migrations:
+    - Changed ore infusion name format
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2020.09.02
   Info:

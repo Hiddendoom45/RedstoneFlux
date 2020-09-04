@@ -1,3 +1,4 @@
+local resource_autoplace = require('resource-autoplace')
 data:extend({
     {
         type = "autoplace-control",
@@ -27,21 +28,20 @@ data:extend({
         },
         collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
-        autoplace = {
-            control = "rflux-redstone",
-            sharpness = 15/16,
-            richness_multiplier = 1500,
-            richness_multiplier_distance_bonus = 20,
-            richness_base = 10,
-            coverage = 0.0015,
-            peaks = {
-                {
-                    noise_layer = "rflux-redstone",
-                    noise_octaves_difference = -0.85,
-                    noise_persistence = 0.4
-                }
-            }
-        },
+        autoplace = resource_autoplace.resource_autoplace_settings
+		{
+			name = "rflux-redstone",
+			order = "g",
+			base_density = 1.7,
+			base_spots_per_km2 = 2.5,
+			has_starting_area_placement = false,
+			random_spot_size_minimum = 1,
+            random_spot_size_maximum = 4,
+            additional_richness = 250,
+			regular_blob_amplitude_multiplier = 1,
+			regular_rq_factor_multiplier = 1,
+			candidate_spot_count = 22
+		},
         
         stage_counts = {10000, 5000, 2500, 1000, 500, 250, 100, 10},
         stages =

@@ -40,14 +40,14 @@ data:extend({
         },
         unit =
         {
-            count = 250,
+            count = 100,
             ingredients =
             {
                 {"automation-science-pack", 1},
                 {"logistic-science-pack", 1},
                 {"chemical-science-pack",1},
             },
-            time = 60
+            time = 30
         },
         prerequisites = {"rflux-redstone-processing","chemical-science-pack"},
         order = "c-b"
@@ -76,7 +76,7 @@ data:extend({
                 {"logistic-science-pack", 1},
                 {"chemical-science-pack",1},
             },
-            time = 60
+            time = 45
         },
         prerequisites = {"rflux-redstone-electronics"},
         order = "c-b"
@@ -98,14 +98,14 @@ data:extend({
         },
         unit =
         {
-            count = 250,
+            count = 200,
             ingredients =
             {
                 {"automation-science-pack", 1},
                 {"logistic-science-pack", 1},
                 {"chemical-science-pack",1},
             },
-            time = 60
+            time = 30
         },
         prerequisites = {"rflux-redstone-crystalization"},
         order = "c-b"

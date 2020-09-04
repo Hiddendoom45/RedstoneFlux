@@ -61,6 +61,7 @@ data:extend({
             fuel_inventory_size = "1",
             burnt_inventory_size = "1",
             fuel_category = "flux",
+            effectivity = 0.5,
             smoke =
             {
                 {
@@ -78,7 +79,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-output",
         },
-        max_power_output = "4MW",
+        max_power_output = "2MW",
         --corpse = "stone-furnace-remnants",
         --dying_explosion = "stone-furnace-explosion",
         repair_sound = {
