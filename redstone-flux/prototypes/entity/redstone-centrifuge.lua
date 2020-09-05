@@ -24,6 +24,7 @@ data:extend({
         },
         result = "rflux-centrifuge",
         energy_required = 5,
+        enabled = false,
         
     },
     {
