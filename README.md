@@ -20,6 +20,11 @@ Glowing redstone deposits
 
 **Heated Redstone Flux Generator** - late game power generation, requires 300MW of heat from a nuclear reactor or other buildings to work. Produces 780 MW when supplied with redstone flux and 319MW when supplied with destabilized redstone. The generator is 150% efficient when using redstone flux, and destabilized redstone is returned from the process. Using destabilized redstone will consume it, but it is much more compact than cooling a reactor with water.
 
+### Compatability
+
+- Space Exploration, raw resources can be converted into energy, higher tier tech uses energy science packs. Pulverizer used to craft redstone dust.
+
+- Krastorio 2, raw resources can be converted into energy. Crusher used to craft redstone dust.
 
 
 ### Planned Features
