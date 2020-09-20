@@ -60,7 +60,7 @@ data:extend({
             emissions_per_minute = "10",
             fuel_inventory_size = "1",
             burnt_inventory_size = "1",
-            fuel_category = "flux",
+            fuel_categories = {"flux","int-flux"},
             effectivity = 0.5,
             smoke =
             {

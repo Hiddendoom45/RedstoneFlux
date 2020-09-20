@@ -21,7 +21,7 @@ data:extend({
         },
         result = "rflux-energy-cell",
         energy_required = 10,
-        category = "chemistry",
+        category = "crafting-with-fluid",
         order = "m[rflux]-[int]-c",
         crafting_machine_tint = {
             primary = {r = 1, g = 0, b = 0, a = 0.5},
@@ -44,7 +44,7 @@ data:extend({
         },
         main_product = "rflux-energy-cell",
         energy_required = 10,
-        category = "chemistry",
+        category = "crafting-with-fluid",
         order = "m[rflux]-[int]-b",
         crafting_machine_tint = {
             primary = {r = 1, g = 0, b = 0, a = 0.5},
@@ -73,7 +73,7 @@ data:extend({
         },
         result = "rflux-depleted-energy-cell",
         energy_required = 10,
-        category = "chemistry",
+        category = "crafting-with-fluid",
         order = "m[rflux]-[int]-d",
         crafting_machine_tint = {
             primary = {r = 0.45, g = 0, b = 0, a = 0.5},

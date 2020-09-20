@@ -21,7 +21,7 @@ data:extend({
         },
         category = "crafting-with-fluid",
         result = "rflux-flux-generator",
-        energy = 60,
+        energy_required = 60,
         enabled = false,
         order = "f[rflux]-[energy]-b",
     },
@@ -38,7 +38,7 @@ data:extend({
             emissions_per_minute = "20",
             fuel_inventory_size = "1",
             burnt_inventory_size = "1",
-            fuel_categories = {"flux","adv-flux"},
+            fuel_categories = {"int-flux","adv-flux"},
             smoke =
             {
                 {

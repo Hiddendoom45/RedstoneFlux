@@ -13,6 +13,10 @@ data:extend({
                 type = "unlock-recipe",
                 recipe = "rflux-burner-generator",
             },
+            {
+                type = "unlock-recipe",
+                recipe = "rflux-survivalist-generator",
+            },
         },
         unit =
         {
@@ -131,6 +135,10 @@ data:extend({
             {
                 type = "unlock-recipe",
                 recipe = "rflux-flux-generator",
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "rflux-hightemp-generator",
             }
         },
         unit =
@@ -167,6 +175,32 @@ data:extend({
             time = 60
         },
         prerequisites = {"rflux-flux-processing","production-science-pack"},
+        order = "c-b"
+    },
+    {
+        type = "technology",
+        name = "rflux-heated-redstone",
+        icon = "__redstone-flux__/graphics/technology/heated-redstone.png",
+        icon_size = 128,
+        effects = {
+            {
+                type = "unlock-recipe",
+                recipe = "rflux-heated-flux-generator",
+            },
+        },
+        unit =
+        {
+            count = 5000,
+            ingredients =
+            {
+                {"automation-science-pack", 1},
+                {"logistic-science-pack", 1},
+                {"chemical-science-pack",1},
+                {"production-science-pack",1},
+            },
+            time = 60
+        },
+        prerequisites = {"rflux-adv-flux-energy","production-science-pack"},
         order = "c-b"
     }
 

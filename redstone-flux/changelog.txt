@@ -1,7 +1,39 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2020.09.19
+  Changes:
+    - Redstone energy cells are crafted and charged with assembler instead of at chemical plant
+    - Added survivalist generator and high temperature generator based on the same types added in
+      extra utilities. Survivalist produces very little power efficiently while high temperature
+      generator produces a lot of power at a slight efficiency loss.
+    - Heated redstone generator again based on the generator added in extra utilities, produces power
+      with 300MW heat and redstone flux. Around 50% more efficient than using water to cool and less flowing
+      fluids. Can also be used to cool a reactor if destabilized redstone is used, no efficiency gain and
+      the destabilized redstone is lost.
+  Balancing:
+    - Reduced infusion recipe time down to 4s.
+    - Increased redstone flux recipe using redstone crystals from 5s to 30s.
+    - Increase efficiency of uranium infusion recipe
+    - Reduce chance that the redstone crystal is lost. 99.5% that it is returned vs 99%
+    - Redstone flux generator can no longer use redstone/redstone dust as fuel, fairly trivial to
+      setup endgame power generation with little to no need to go through infusion mess.
+    - Moved redstone infusion into redstone flux research to make it easier to make redstone flux
+      before researching infusion with its increased importance for powering flux generators.
+    - New fuel category for redstone crystal which can be used in both types of generators, it is fairly
+      difficult to obtain large quantities and it can be used to make earlygame power generation more efficient
+  Bugfixes:
+    - Redstone Flux generator crafting time properly set to 60s.
+  Compatability:
+    - Reduce Space Exploration core fragment output to make it more difficult to self core mining drills.
+    - Heated Redstone and Redstone Infusion tech require energy science packs if space exploration is installed.
+  Locale:
+    - Renamed redstone flux to destabilized redstone
+    - Renamed energized redstone flux to redstone flux
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 2020.09.04
-  Fixes:
+  Bugfixes:
     - Redstone centrifuge shouldn't be available from the start
 
 ---------------------------------------------------------------------------------------------------
@@ -9,7 +41,7 @@ Version: 0.1.2
 Date: 2020.09.04
   Changes:
     - Add Krastorio 2 biomass into infusion recipes
-  Fixes:
+  Bugfixes:
     - Infusion recipes are no longer automatically unlocked (issue in control script)
       It should now work properly unlocking new ores if tech is already researched.
     - Redstone processing technology requires pulverizer/crusher to be researched if SE or K2 is enabled.
@@ -17,7 +49,7 @@ Date: 2020.09.04
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2020.09.04
-  Fixes:
+  Bugfixes:
     - New infusion recipes are unlocked if tech is researched - for existing saves when
       additional ores from other mods are added.
   Changes:

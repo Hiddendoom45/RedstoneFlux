@@ -5,7 +5,7 @@ data:extend({
         icon = "__redstone-flux__/graphics/icons/redstone-crystal.png",
         icon_size = 64,
         fuel_value = "1GJ",
-        fuel_category = "flux",
+        fuel_category = "int-flux",
         subgroup = "intermediate-product",
         stack_size = 200,
         order = "m[rflux]-[int]-a",

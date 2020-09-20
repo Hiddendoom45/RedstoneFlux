@@ -6,7 +6,7 @@ data:extend({
         flow_color = {r = 0.45, b = 0, g = 0},
         default_temperature = 25,
         max_temperature = 1000,
-        heat_capacity = "1kJ",
+        heat_capacity = "220kJ",
         fuel_value = "10MJ",
         icon = "__redstone-flux__/graphics/icons/flux.png",
         icon_size = 64, icon_mipmaps = 4,
