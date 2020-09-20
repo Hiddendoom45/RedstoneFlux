@@ -56,7 +56,7 @@ data:extend({
             type = "electric",
             usage_priority = "secondary-output",
         },
-        max_power_output = "100MW",
+        max_power_output = "50MW",
         -- corpse = "electric-furnace-remnants",
         dying_explosion = "electric-furnace-explosion",
         resistances =

@@ -21,6 +21,7 @@ Date: 2020.09.19
       before researching infusion with its increased importance for powering flux generators.
     - New fuel category for redstone crystal which can be used in both types of generators, it is fairly
       difficult to obtain large quantities and it can be used to make earlygame power generation more efficient
+    - Reduce power gen of flux generator as new endgame power generation has been added
   Bugfixes:
     - Redstone Flux generator crafting time properly set to 60s.
   Compatability:

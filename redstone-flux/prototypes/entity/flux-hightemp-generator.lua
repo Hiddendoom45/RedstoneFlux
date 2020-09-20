@@ -21,7 +21,7 @@ gen_ent.name = "rflux-hightemp-generator"
 gen_ent.minable.result = "rflux-hightemp-generator"
 gen_ent.order = "f[rflux]-[energy]-ba"
 gen_ent.burner.effectivity = 0.75
-gen_ent.max_power_output = "400MW"
+gen_ent.max_power_output = "200MW"
 gen_ent.energy_source.usage_priority = "tertiary"
 
 data:extend({
