@@ -14,9 +14,9 @@ Glowing redstone deposits
 
 **Survivalist Redstone Generator** - early game power generation, provides 200kW of power, 4x more efficient than the redstone generator.
 
-**Redstone Flux Generator** - mid-late game power generation, provides 100MW of power by burning redstone energy cells. Limited by slow redstone crystal production. Unlocking redstone infusion effectively allows energy to be to be extracted from any raw resource.
+**Redstone Flux Generator** - mid-late game power generation, provides 50MW of power by burning redstone energy cells. Limited by slow redstone crystal production. Unlocking redstone infusion effectively allows energy to be to be extracted from any raw resource.
 
-**High Temperature Flux Generator** - mid-late game power generation, provides 400MW of power by burning redstone energy cells. It is less efficient than the flux generator and only produces power if it is needed.
+**High Temperature Flux Generator** - mid-late game power generation, provides 200MW of power by burning redstone energy cells. It is less efficient than the flux generator and only produces power if it is needed.
 
 **Heated Redstone Flux Generator** - late game power generation, requires 300MW of heat from a nuclear reactor or other buildings to work. Produces 780 MW when supplied with redstone flux and 319MW when supplied with destabilized redstone. The generator is 150% efficient when using redstone flux, and destabilized redstone is returned from the process. Using destabilized redstone will consume it, but it is much more compact than cooling a reactor with water.
 
