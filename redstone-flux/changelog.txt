@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2022.04.19
+  Compatability:
+    - Update info.json to be compatible with factorio 1.1.
+    - Compatability with krastorio2 and space exploration appears to work.
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 2020.09.19
   Changes:
